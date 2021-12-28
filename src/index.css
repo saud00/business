@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "HurmeGeometricSans3";
+}
+@font-face {
+  font-family: "HurmeGeometricSans3";
+  src: local("HurmeGeometricSans3"),
+    url(./fonts/HurmeGeometricSans3.otf) format("opentype");
+}
+.homeicon {
+  font-family: "Crimson Text", serif;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+code {
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+}
+color {
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  font-size: xx-large;
+  color: rgb(255, 47, 82);
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.redux-cont {
+  width: 100%;
+}
+
+.redux-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: "100%";
+  min-width: "100%";
+}
+.redux-row {
+  max-width: 100%;
+  width: 25%;
+  padding: 25px;
+}
+.redux-col {
+  width: 100%;
+  overflow: hidden;
+}
+.redux-col2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.redux-dis1 {
+  flex-grow: 1;
+  text-align: left;
+}
+.redux-dis2 {
+  flex-grow: 1;
+  text-align: right;
+}
+.redux-discPer1 {
+  font-weight: bold;
+}
+.redux-price {
+  text-decoration: line-through;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.redux-img {
+  width: 100%;
+  height: 35vh;
+}
+.redux-img img {
+  height: 100%;
+  width: 100%;
+}
